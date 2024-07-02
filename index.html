@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Library</h1>
+        </div>
+        <div class="form">
+            <form actio="#" id="addBookForm">
+                <div class="title_input">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" required>    
+                </div>
+                <div class="author_input">
+                    <label for="author">Author</label>
+                    <input type="text" name="author" id="author">
+                </div>
+                <div class="pages_input">
+                    <label for="pages">Number of Pages</label>
+                    <input type="number" name="pages" id="pages">
+                </div>
+                <div class="read_input">
+                    <label for="read">Have you read this already?</label>
+                    <input type="radio" value="true" id="read" name="status" checked="checked">
+                    <label for="read">Read</label>
+                    <input type="radio" value="false" id="not_read" name="status">
+                    <label for="not_read">Not read</label>
+                </div>
+                <button id="createBook">Create Book</button>
+            </form>
+            <button class="clear">Clear</button>
+        </div>
+        <div class="main">
+            <!-- <div class="card">
+                <p>Title</p>
+                <p>author</p>
+                <p>pages</p>
+            </div> -->
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
